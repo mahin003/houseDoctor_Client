@@ -1,0 +1,104 @@
+.OrderDashboard{
+    width:94%;
+    display:flex;
+    /* border:2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    height:80vh;
+}
+.OrderUserMenu{
+    /* border-right: 2px solid red; */
+    border-radius: 20px;
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+    width:26%;
+    background-color: #0b2f46;
+}
+.OrderUserMenu div{
+    margin-top: 50px;
+}
+.OrderUserMenu a{
+    /* margin-top:40px; */
+    margin-left: 16px;
+    color: white;
+    font-weight: bold;
+}
+.OrderUserFeature{
+    /* border: 2px solid green; */
+    width:67%;
+}
+.FeedBackForm{
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+.FeedBackForm input{
+    margin-bottom: 25px;
+    font-size: 25px;
+    width:50%;
+    height:45px;
+}
+.FeedBackForm textarea{
+    margin-bottom:25px;
+    border:2px solid black;
+    font-size: 20px;
+}
+.FeedBackForm input[type="submit"]{
+    width:40%;
+    background-color: rgb(15, 15, 80);
+    color: whitesmoke;
+    border-radius: 14px;
+}
+.FeedBackForm label{
+    margin-top: 20px ;
+    font-size: 25px;
+}
+
+.ListTable{
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ListTable table{
+    width: 100%;
+   margin-top: 30px;
+}
+.ListTable table th{
+    border: 3px solid rgb(122, 13, 13);
+    font-size: 24px;
+}
+.ListTable table tr td{
+    font-size: 20px;
+    border: 3px solid rgb(122, 13, 13);
+}
+.ListTable button{
+    border-radius: 10px;
+    margin: 10px;
+    background-color:rgb(18, 18, 78);
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .OrderDashboard{
+        flex-direction: column;
+        height:auto;
+    }
+    .OrderUserMenu{
+            /* flex-direction:row; */
+            width:100%;
+            justify-content: space-around;
+    }
+    .OrderUserMenu a{
+        font-size: 17px;
+        color: black;
+        font-weight: bold;
+    }
+    .OrderUserFeature{
+        width:100%;
+        margin-top: 20px;
+    }
+    .FeedBackForm input{
+        font-size: 22px;
+        width:70%;
+    }
+  
+  }

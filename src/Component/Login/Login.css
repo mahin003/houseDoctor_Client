@@ -1,0 +1,36 @@
+.LoginBlock{
+    border: 1px solid red;
+    height:60vh;
+    margin-top: 20px;
+}
+.authLink{
+    display:flex;
+    justify-content:space-around;
+    border: 2px solid black;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    height:150px;
+    margin-top: 4%;
+    border-radius: 60px;
+    background-color: rgb(18, 100, 100);
+    cursor: pointer;
+}
+.authLink label{
+   /* margin-top:45px; */
+   font-size: 30px;
+   /* border:2px solid red; */
+   color: bisque;
+   /* margin-left:90px; */
+}
+@media only screen and (max-width: 600px) {
+
+    .authLink{
+        width:90%;
+        margin-top: 80px;
+    }
+    .authLink label{
+        margin-left: 60px;
+        font-size: 23px;
+    }
+}

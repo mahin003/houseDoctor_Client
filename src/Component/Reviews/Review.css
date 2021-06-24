@@ -1,0 +1,41 @@
+.ReviewParent{
+    display:block;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    
+}
+.Review{
+  width:86%;
+  display:flex;
+  flex-wrap: wrap;
+   margin-left:auto;
+   margin-right: auto;
+   justify-content:space-between;
+   
+}
+.ReviewSection{
+    border: 2px solid red;
+    width: 26%;
+    background-color: #d1eafa;
+    padding:4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .Review{
+        width:90%;
+    }
+    .ReviewSection{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom:20px;
+        border-radius: 20px;
+        
+    }
+  }

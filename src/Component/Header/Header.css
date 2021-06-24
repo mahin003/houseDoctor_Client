@@ -1,0 +1,62 @@
+.HeaderDiv{
+    height:auto;
+    width:100%;
+   
+}
+.HeaderDetails{
+     background-image: url("../../Images/Header.png");
+    background-size: 100% 100%;
+    height:100%;
+    display: flex;
+    width:100%;
+    background:#daf5ef;
+}
+.Shop{
+    /* border: 20px solid rebeccapurple; */
+    margin-top:80px;
+    width: 40%;
+    color:#c7072a;
+}
+.Slogan{
+    width:90%;
+    /* border: 2px solid red; */
+}
+.Slogan p{
+    margin-top: 30px;
+}
+.Img{
+    width:60%;
+    /* border:2px solid #dee2e6; */
+    
+}
+.Img img{
+    width:100%;height:500px;
+}
+
+/*animation*/
+.name:hover{
+    color: #FFBD33;
+}
+.Shop:hover{
+    transition-duration: 0.6s;
+    transform: scaleX(1.1);
+}
+.Img img:hover{
+    transition-duration: 0.6s;
+    transform: scaleX(1.05);
+}
+
+@media only screen and (max-width: 600px) {
+    .Img{
+        width:50%;
+       
+        margin-left: auto;
+    }
+    .Shop{
+        margin-top: 25px;
+        z-index:10;
+        width:50%;
+       
+        
+    }
+  }
